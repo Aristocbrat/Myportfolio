@@ -5,7 +5,8 @@ const Projects = () => {
   return (
     <div>
        <div className="projectimages flex flex-col py-8 px-3" id='project'>
-                <h1 className='font-extrabold py-4 text-black text-3xl capitalize underline underline-offset-4'>projects:</h1>
+                <h1 className='font-extrabold py-4 text-black
+                 text-3xl capitalize underline underline-offset-4'>projects:</h1>
          <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black w-full text-base-200">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/bank.png" alt="" 

@@ -216,7 +216,7 @@ const [startAnimi, setStartAnimi] = useState("-60%");
               <motion.p
                    style={{ x: para1 }}
                    transition={{ delay: 1.0, type: "spring", stiffness: 100, damping: 10  , duration:1500 }}
-                   className='w-full md:w-[420px] text-sm md:text-base lg:text-lg'>
+                   className='w-full md:w-[420px] text-sm md:text-base lg:text-lg dark:font-bold'>
                 With a strong foundation in HTML, CSS, JavaScript, and frameworks like React.js &
                 Next.Js, and different animation libaries
                  I bring designs to life with clean , slick and efficient code.

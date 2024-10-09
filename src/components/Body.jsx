@@ -71,7 +71,7 @@ const scrollRef = useRef(null)
               <AnimiLoader/>
             </div>
             <div
-               className="xl:text-xl text-white xl:w-[200px] 
+               className="xl:text-xl text-white dark:text-[#0D7C66] xl:w-[200px] 
                xl:h-[200px] mt-4 xl:block sm:hidden font-extrabold uppercase" ref={scrollRef} >
                 <motion.div
                   style={{translateX:para1}}

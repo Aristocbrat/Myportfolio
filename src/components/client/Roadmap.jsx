@@ -12,7 +12,7 @@ const Roadmap = () => {
     
   </figure>
   <div className="card-body w-full ">
-    <h2 className="card-title text-4xl">My Road-Map</h2>
+    <h2 className="card-title xl:text-4xl lg:text-4xl sm:text-2xl">My Road-Map</h2>
      <p className='font-bold'>-Front-end Development Course at PluralCode Academy</p>
      <p className='font-bold'>-Internship at HNG</p>
      <p className='font-bold'>-Building user-friendly & responsive web applications</p>
@@ -25,7 +25,7 @@ const Roadmap = () => {
    
   </figure>
   <div className="card-body">
-    <h2 className="card-title text-4xl">My Project Xperience:</h2>
+    <h2 className="card-title xl:text-4xl sm:text-2xl ">My Project Xperience:</h2>
     <section className='flex flex-col py-5 gap-8'>
     
     <div className="bg-black text-[#12be9ca6] w-full ">
