@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+ html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+ }
+ /* From Uiverse.io by Aristocbrat */ 
 
-.App-link {
-  color: #61dafb;
-}
+.star__stroke {
+   --dur: 4s;
+   animation: stroke1 var(--dur) linear infinite;
+ }
+ .star__stroke--2 {
+   animation-name: stroke2;
+   animation-delay: calc(var(--dur) / -2);
+ }
+ .star__stroke--3 {
+   animation-name: stroke3;
+   animation-direction: reverse;
+ }
+ .star__stroke--4 {
+   animation-name: stroke4;
+   animation-delay: calc(var(--dur) / -2);
+   animation-direction: reverse;
+ }
+ 
+ @keyframes stroke1 {
+   from {
+     stroke-dashoffset: 0;
+   }
+   to {
+     stroke-dashoffset: 124;
+   }
+ }
+ @keyframes stroke2 {
+   from {
+     stroke-dashoffset: 0;
+   }
+   to {
+     stroke-dashoffset: 248;
+   }
+ }
+ @keyframes stroke3 {
+   from {
+     stroke-dashoffset: 0;
+   }
+   to {
+     stroke-dashoffset: 372;
+   }
+ }
+ @keyframes stroke4 {
+   from {
+     stroke-dashoffset: 0;
+   }
+   to {
+     stroke-dashoffset: 496;
+   }
+ }
+ 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ @media (max-width:360px) {
+    .abouttext {
+       font-size: 10px !important;
+       height: 1050px !important;
+    }
+    .resume{
+       margin-left: 4% !important;
+    }
+    .facediv{
+      width: 60% !important;
+      height: 200px  !important;
+    }
+    .facediv img{
+       top: 14%;
+    }
+    .techstack{
+       font-size: 20px !important;
+       margin-left: 20% !important;
+    }
+    .stack-icons{
+       margin-left: 9% !important;
+    }
+ }
+
+
