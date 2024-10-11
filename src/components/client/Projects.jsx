@@ -4,10 +4,11 @@ import { LuChevronsRight } from "react-icons/lu";
 const Projects = () => {
   return (
     <div>
-       <div className="projectimages flex flex-col py-8 px-3" id='project'>
+       <div className="projectimages flex flex-col py-8 xl:px-3" id='project'>
                 <h1 className='font-extrabold py-4 text-black
                  text-3xl capitalize underline underline-offset-4'>projects:</h1>
-         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black w-full text-base-200">
+         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black xl:w-full xl:ml-0
+          sm:w-[350px] sm:ml-[-4%] text-base-200">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/bank.png" alt="" 
                 className='w-[150px] h-[100px]  
@@ -36,7 +37,8 @@ const Projects = () => {
             </div>
             
          </div>
-         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black w-full">
+         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black xl:w-full xl:ml-0 
+         sm:w-[350px] sm:ml-[-4%]">
             <div className="flex flex-wrap gap-3 justify-center group">
                <img src="/shop.png" alt="" 
                 className='w-[150px] h-[100px] group-hover:scale-102 transition-transform duration-500 delay-200 object-contain aspect-square'/>
@@ -62,7 +64,8 @@ const Projects = () => {
             </div>
             
          </div>
-         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black w-full">
+         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black
+          xl:w-full xl:ml-0  sm:w-[350px] sm:ml-[-4%]">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/adopt1.png" alt="" 
                 className='w-[150px] h-[100px] group-hover:scale-102 transition-transform duration-500 delay-200 object-contain aspect-square'/>
@@ -88,15 +91,16 @@ const Projects = () => {
             </div>
             
          </div>
-         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black w-full">
+         <div className="border-b-2 border-[#12be9c] py-4 px-3
+          bg-black xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%]">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/cappi1.png" alt=""  
                className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-200 object-contain aspect-square'/>
-               <img src="/bank2.png" alt=""
+               <img src="/cappi2.png" alt=""
                 className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-300 object-contain aspect-square' />
-               <img src="/bank3.png" alt="" 
+               <img src="/cappi3.png" alt="" 
                className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-400 object-contain aspect-square'/>
-               <img src="/bank4.png" alt=""
+               <img src="/cappi4.png" alt=""
                 className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-500 object-contain aspect-square'/>
             </div>
             <div className="">

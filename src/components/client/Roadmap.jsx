@@ -6,12 +6,12 @@ const Roadmap = () => {
   return (
     <div>
       <section className='flex xl:flex-row sm:flex-col-reverse justify-center
-       xl:w-[95%] sm:w-[100%] gap-10 h-full xl:py-12 sm:py-5 xl:px-5 sm:px-2'>
+       xl:w-[95%] sm:w-[100%] gap-10 h-full xl:py-12 sm:py-5 xl:px-5 '>
       <div className="card lg:card-side bg-[#12be9c] shadow-xl xl:w-[40%] sm:w-[100%] h-full">
   <figure>
     
   </figure>
-  <div className="card-body w-full text-black ">
+  <div className="card-body w-full text-black  ">
     <h2 className="card-title xl:text-4xl lg:text-4xl sm:text-2xl">My Road-Map</h2>
      <p className='font-bold'>-Front-end Development Course at PluralCode Academy</p>
      <p className='font-bold'>-Internship at HNG</p>
@@ -28,7 +28,7 @@ const Roadmap = () => {
     <h2 className="card-title xl:text-4xl sm:text-2xl text-black ">My Project Xperience:</h2>
     <section className='flex flex-col py-5 gap-8'>
     
-    <div className="bg-black text-[#12be9ca6] w-full ">
+    <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] ">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>aug - sept 2024</span>
              <span className='uppercase'><a href="">Banking website </a></span>
@@ -56,7 +56,7 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black text-[#12be9ca6] w-full ">
+        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] ">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>june - july 2024</span>
              <span className='uppercase'><a href="">E-commerce website </a></span>
@@ -86,7 +86,7 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black text-[#12be9ca6] w-full ">
+        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%]">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>may - june 2024</span>
              <span className='uppercase'><a href="">Orphanage Website </a></span>
@@ -116,7 +116,7 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black text-[#12be9ca6] w-full ">
+        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] ">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>march - april 2024</span>
              <span className='uppercase'><a href="">Capstone project </a></span>
