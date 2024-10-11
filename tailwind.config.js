@@ -9,7 +9,8 @@ module.exports = {
       fontFamily:{
         mainfont:["Lato" , "sans-serif"],
         hfont:["Italianno", "sans-serif"],
-        aboutfont:["Lobster", "sans-serif"]
+        aboutfont:["Lobster", "sans-serif"],
+        nicefont:["Bricolage Grotesque", "sans-serif"]
       },
       scale: {
         '102': '1.07',

@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cabin:ital,wght@0,400..700;1,400..700&family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -71,7 +71,7 @@
  @media (max-width:360px) {
     .abouttext {
        font-size: 10px !important;
-       height: 1050px !important;
+       height: 1100px !important;
     }
     .resume{
        margin-left: 4% !important;

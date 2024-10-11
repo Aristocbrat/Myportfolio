@@ -94,7 +94,7 @@ const [startAnimi, setStartAnimi] = useState("-60%");
                 data-aos="fade-down"
                 data-aos-duration="2000"
                className='xl:font-bold sm:font-semibold 
-               xl:ml-0 sm:ml-2
+               xl:ml-0 sm:ml-3 font-nicefont
                xl:tracking-wider px-2 xl:w-full sm:w-[92%] xl:px-1 sm:px-1  '>"As a passionate frontend developer,
                I bring creative ideas to life using modern technologies. 
                With a deep understanding of HTML, CSS, and JavaScript,
@@ -216,7 +216,7 @@ const [startAnimi, setStartAnimi] = useState("-60%");
               <motion.p
                    style={{ x: para1 }}
                    transition={{ delay: 1.0, type: "spring", stiffness: 100, damping: 10  , duration:1500 }}
-                   className='w-full md:w-[420px] text-sm md:text-base lg:text-lg dark:font-bold'>
+                   className='w-full md:w-[420px] text-sm md:text-base lg:text-lg dark:font-bold font-nicefont'>
                 With a strong foundation in HTML, CSS, JavaScript, and frameworks like React.js &
                 Next.Js, and different animation libaries
                  I bring designs to life with clean , slick and efficient code.

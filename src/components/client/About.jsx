@@ -58,7 +58,7 @@ const scrollRef = useRef(null)
              <motion.div
              
                    className="xl:w-[68%] sm:w-[100%] xl:h-[520px] abouttext
-                   sm:h-[940px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-lato  ">
+                   sm:h-[960px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
             <motion.p
             data-aos="fade-down"
             data-aos-duration="2000"
