@@ -54,7 +54,7 @@ const [startAnimi, setStartAnimi] = useState("-60%");
   
   return (
     <div className='xl:py-8 sm:py-3' id='skill'>
-      <motion.section className='flex justify-center  gap-10'
+      <motion.section className='flex justify-center  gap-10 overflow-hidden'
       style={{ backgroundImage: `url(./wave.png)` }}>
           <motion.svg
             xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +216,7 @@ const [startAnimi, setStartAnimi] = useState("-60%");
               <motion.p
                    style={{ x: para1 }}
                    transition={{ delay: 1.0, type: "spring", stiffness: 100, damping: 10  , duration:1500 }}
-                   className='w-full md:w-[420px] text-sm md:text-base lg:text-lg dark:font-bold font-nicefont'>
+                   className='w-full md:w-[420px] text-sm md:text-base lg:text-lg dark:font-bold font-nicefont overflow-hidden'>
                 With a strong foundation in HTML, CSS, JavaScript, and frameworks like React.js &
                 Next.Js, and different animation libaries
                  I bring designs to life with clean , slick and efficient code.
