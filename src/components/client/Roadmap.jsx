@@ -28,10 +28,10 @@ const Roadmap = () => {
     <h2 className="card-title xl:text-4xl sm:text-2xl text-black ">My Project Xperience:</h2>
     <section className='flex flex-col py-5 gap-8'>
     
-    <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+    <div className="bg-black text-[#12be9ca6] dark:bg-[#12be9ca6] dark:text-black xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
-            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>aug - sept 2024</span>
-             <span className='uppercase'><a href="">Banking website </a></span>
+            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'>aug - sept 2024</span>
+             <span className='uppercase'><a href="https://bank-ochre-omega.vercel.app/">Banking website </a></span>
              <LuChevronsRight className='text-2xl' /></h1>
              <p className='p-3 font-bold'>
        I designed, developed, and deployed a personal
@@ -41,17 +41,17 @@ const Roadmap = () => {
           responsive layouts, and seamless user experience to meet industry standards.
      </p>
      <p className='py-5 flex flex-wrap justify-center px-2 gap-4'>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="150">Tailwind</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="250">React.js</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="350">React Icons</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="450">Remix Icons</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="550">Daisy Ui</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="650">AOS</span>
      </p>
 
@@ -59,9 +59,9 @@ const Roadmap = () => {
         <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>june - july 2024</span>
-             <span className='uppercase'><a href="">E-commerce website </a></span>
+             <span className='uppercase'><a href="https://ecomm-omega-tan.vercel.app/">E-commerce website </a></span>
              <LuChevronsRight className='text-2xl' /></h1>
-             <p className='p-3 font-bold capitalize'>
+             <p className='p-3 font-bold '>
              "I designed, developed, and deployed a dynamic e-commerce website 
              with sleek animations and an intuitive add-to-cart functionality.
               The site is fully responsive, providing a seamless user experience across devices.
@@ -89,7 +89,7 @@ const Roadmap = () => {
         <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>may - june 2024</span>
-             <span className='uppercase'><a href="">Orphanage Website </a></span>
+             <span className='uppercase'><a href="https://help-a-child.vercel.app/">Orphanage Website </a></span>
              <LuChevronsRight className='text-2xl' /></h1>
              <p className='p-3 font-bold'>
              I designed and developed a user-friendly
@@ -116,9 +116,9 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+        <div className="bg-black dark:bg-[#12be9ca6] dark:text-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
-            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>march - april 2024</span>
+            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'>march - april 2024</span>
              <span className='uppercase'><a href="">Capstone project </a></span>
              <LuChevronsRight className='text-2xl' /></h1>
              <p className='p-3 font-bold'>
@@ -130,15 +130,15 @@ const Roadmap = () => {
               I ensured that the landing page loads quickly and provides seamless navigation, enhancing overall user satisfaction.
      </p>
      <p className='py-5 flex flex-wrap justify-center px-2 gap-4'>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="250">Bootstrap</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="350">React.js</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="450">Remix Icons</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="550">CSS</span>
-      <span className='p-3 rounded-xl bg-[#12be9ca6] text-black font-bold'
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="650">AOS</span>
      </p>
 

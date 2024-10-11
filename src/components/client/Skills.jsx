@@ -207,15 +207,13 @@ const [startAnimi, setStartAnimi] = useState("-60%");
                <p className='group-hover:scale-125 duration-500 group-hover:font-bold uppercase'>framer</p>
                </motion.div>
                </motion.div>
-               <motion.div className="xl:w-[35%]   sm:w-[95%] text-[#12be9c]" ref={scrollRef}>
+               <motion.div className="xl:w-[35%]   sm:w-[95%] text-[#12be9c]">
                <motion.p
-                 style={{ x: para1 }}
-                 transition={{ delay: 1.0, type: "spring", stiffness: 100, damping: 10  , duration:1500 }}
+                  data-aos="fade-down" data-aos-duration="2000"
                
               className="xl:text-4xl sm:text-2xl py-2  font-extrabold "> My Skill-set:</motion.p>
               <motion.p
-                   style={{ x: para1 }}
-                   transition={{ delay: 1.0, type: "spring", stiffness: 100, damping: 10  , duration:1500 }}
+                   data-aos="fade-up" data-aos-duration="2000"
                    className='w-full md:w-[420px] text-sm md:text-base lg:text-lg dark:font-bold font-nicefont overflow-hidden'>
                 With a strong foundation in HTML, CSS, JavaScript, and frameworks like React.js &
                 Next.Js, and different animation libaries

@@ -42,8 +42,8 @@ const scrollRef = useRef(null)
 
   
   return (
-    <div id='about'>
-          <div className=" mt-4 w-full h-full xl:py-16 sm:py-3">
+    <div >
+          <div className=" mt-4 w-full h-full xl:py-16 sm:py-3" id='about' >
 
              <h1 className='xl:text-4xl sm:text-[16px] 
               flex justify-center font-extrabold text-[#0D7C66] uppercase py-10'>
@@ -56,7 +56,7 @@ const scrollRef = useRef(null)
               </div>
                
              <motion.div
-             
+                    
                    className="xl:w-[68%] sm:w-[100%] xl:h-[520px] abouttext
                    sm:h-[960px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
             <motion.p
@@ -66,12 +66,12 @@ const scrollRef = useRef(null)
              py-3 text-lg leading-10 opacity-90'> 
             My name is Babatunde Emmanuel Toyosi,
              and I'm a passionate frontend web developer with over a year of experience.
-              I completed my training at Plural Code Academy, where I gained a solid foundation in modern frontend technologies.</motion.p>
+             </motion.p>
                <motion.p 
                data-aos="fade-down"
             data-aos-duration="3000"
                className=' text-white px-5
-             py-1 text-lg leading-10 opacity-90'>As a quick learner,
+             py-1 text-lg leading-10 opacity-90'>
              I constantly push myself to master new tools and techniques,
               ensuring I stay up to date with the latest trends in web development.</motion.p>
              <motion.p 
@@ -103,7 +103,7 @@ const scrollRef = useRef(null)
               </div>
             <div className="motto mx-auto xl:w-[450px] sm:w-[200px] xl:py-4 sm:py-6">
                   <ul className='xl:flex xl:gap-10 sm:gap-4  xl:flex-row sm:grid sm:grid-cols-2'>
-                    <li className='tooltip tooltip-left 
+                    <li className='tooltip tooltip-top 
                     w-20 h-20 group hover:bg-black dark:bg-[#0D7C66]
                     
                      rounded-full  duration-500' data-tip="Team Player" data-aos="fade-down" data-aos-duration="2000" >
@@ -123,7 +123,7 @@ const scrollRef = useRef(null)
                     <MdTimer className='text-white text-5xl ml-4 mt-4
                      group-hover:text-[#0D7C66] dark:group-hover:text-black group-hover:scale-125 delay-300 duration-500'/>
                     </li>
-                    <li className='tooltip tooltip-right 
+                    <li className='tooltip tooltip-bottom
                      w-20 h-20 group hover:bg-black dark:bg-[#0D7C66]
                     rounded-full  duration-500' data-tip="Resilience" data-aos="fade-down" data-aos-duration="2000">
                     < GiMuscleUp className='text-white text-5xl
