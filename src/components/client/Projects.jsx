@@ -108,7 +108,7 @@ const Projects = () => {
              whileHover={{translateX:15 }}
              transition={{duration:0.5, ease:easeInOut}}
             className='flex gap-1 font-extrabold  text-[#12be9c] ' >
-             <span className='uppercase'><a href="">capstone Landing page </a></span>
+             <span className='uppercase'><a href="https://ggg-aristocbrat-1243.vercel.app/">capstone Landing page </a></span>
              <LuChevronsRight className='text-2xl' /></motion.h1>
              <p className='font-semibold py-3 text-[#12be9c] capitalize'>
              a visually appealing and highly functional landing page for a ChatGPT website,
