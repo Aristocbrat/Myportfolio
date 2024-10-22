@@ -18,7 +18,7 @@ const Navbar = () => {
  
 
   return (
-    <div className='fixed top-0 z-10 w-full bg-black h-[50px] pb-3'>
+    <div className='fixed top-0 z-10 w-full bg-black h-[100px] pb-3'>
       <Scrollwathcers/>
       <div
       style={{ backgroundImage: `url(./wave.png)` }}
