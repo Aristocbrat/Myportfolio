@@ -58,7 +58,7 @@ const scrollRef = useRef(null)
              <motion.div
                     
                    className="xl:w-[68%] sm:w-[100%] xl:h-[520px] abouttext
-                   sm:h-[960px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
+                   sm:h-[1160px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
             <motion.p
             data-aos="fade-down"
             data-aos-duration="2000"
@@ -82,6 +82,14 @@ const scrollRef = useRef(null)
               allowing me to implement designs with pixel-perfect precision. I thrive in team environments,
                where collaboration and problem-solving drive project success. My goal is to continue building seamless,
                 user-friendly interfaces that bring creative visions to life.
+                </motion.p>
+                <motion.p 
+               data-aos="fade-up"
+            data-aos-duration="4000"
+            data-aos-delay="350"
+             className=' text-white px-5
+             py-1 text-lg leading-10 opacity-80'>My passion lies in solving user experience challenges through clean, efficient code and thoughtful interface design, 
+             ensuring every feature enhances rather than complicates the user journey.
                 </motion.p>
                 </motion.div>  
             </div>
