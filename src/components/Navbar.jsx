@@ -1,6 +1,7 @@
 import React,{useState, useEffect} from 'react';
 import { motion } from 'framer-motion';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import Scrollwathcers from './client/Scrollwathcers';
 
 
 
@@ -17,7 +18,8 @@ const Navbar = () => {
  
 
   return (
-    <div>
+    <div className='fixed top-0 z-10 w-full'>
+      <Scrollwathcers/>
       <div
       style={{ backgroundImage: `url(./wave.png)` }}
        className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] ">
