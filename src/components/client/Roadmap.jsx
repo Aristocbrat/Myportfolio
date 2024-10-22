@@ -1,8 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { LuChevronsRight } from "react-icons/lu";
+import { FaRegCopyright } from "react-icons/fa6";
 import Contactme from './Contactme';
 import Projects from './Projects';
 const Roadmap = () => {
+  useEffect(()=>{
+    const Time = () =>{
+      document.getElementById("year").innerHTML= new Date().getFullYear();
+    }
+    Time()
+
+  },[])
   return (
     <div>
       <section className='flex xl:flex-row sm:flex-col-reverse justify-center
@@ -147,13 +155,19 @@ const Roadmap = () => {
        
     </section>
        
-    <div className="card-actions justify-end">
-     
+    <div className="">
+       
     </div>
   </div>
 </div>
              
       </section>
+      <div className="date flex justify-center gap-2 font-extrabold text-[#12be9c] sm:py-4 xl:py-2 xl:text-base sm:text-[12px]">
+         <FaRegCopyright className='text-3xl sm:mt-[-2%] xl:mt-0 '/> |
+         <span></span>
+         <span id='year'> </span>
+         <span className='ps-3'> All rights reserved</span>
+         </div>
     </div>
   )
 }

@@ -18,13 +18,13 @@ const Navbar = () => {
  
 
   return (
-    <div className='fixed top-0 z-10 w-full bg-black h-[100px] pb-3'>
+    <div className='fixed top-0 z-10 w-full bg-black dark:bg-[#12be9c] h-[90px] '>
       <Scrollwathcers/>
       <div
       style={{ backgroundImage: `url(./wave.png)` }}
-       className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] ">
+       className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] dark:text-white">
         <div className="navbar-start">
-          <h1 className="xl:text-4xl sm:text-2xl font-bold font-aboutfont">Emmanuel's Portfolio</h1>
+          <h1 className="xl:text-4xl sm:text-2xl  font-bold font-aboutfont">Emmanuel's Portfolio</h1>
         
         </div>
 
@@ -35,8 +35,9 @@ const Navbar = () => {
         <div className="navbar-end flex gap-5">
           
         <div className="dropdown xl:hidden sm:block">
-       <div tabIndex={0} role="button" className="btn rounded-full bg-[#0D7C66]  m-1"> <GiHamburgerMenu className='text-white'/></div>
-            <ul tabIndex={0} className="dropdown-content menu text-[11px] bg-[#0D7C66] text-white rounded-box z-[1] w-[100px] p-2 shadow">
+       <div tabIndex={0} role="button" className="btn rounded-full bg-[#12be9c] dark:bg-white  m-1">
+         <GiHamburgerMenu className='text-white dark:text-[#12be9c]'/></div>
+            <ul tabIndex={0} className="dropdown-content menu text-[11px] bg-[#12be9c] text-white rounded-box z-[1] w-[100px] p-2 shadow">
            <li>
                 <a href="#about">About me</a>
               </li>

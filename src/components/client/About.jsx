@@ -46,13 +46,13 @@ const scrollRef = useRef(null)
           <div className=" mt-4 w-full h-full xl:py-16 sm:py-3" id='about' >
 
              <h1 className='xl:text-4xl sm:text-[16px] 
-              flex justify-center font-extrabold text-[#0D7C66] uppercase py-10'>
+              flex justify-center font-extrabold text-[#0D7C66] uppercase py-10 '>
               <span className='about tracking-wider'></span> </h1>
             <div className="flex xl:flex-row sm:flex-col justify-center gap-10 px-4 xl:w-[90%] sm:w-[100%] overflow-hidden py-4">
-              <div className="xl:w-[40%] xl:h-[400px] sm:w-[54%] xl:mx-0 
+              <div className="xl:w-[28%] xl:h-[350px] sm:w-[54%] xl:mx-0 
               sm:mx-auto sm:h-[200px]  bg-[#0d7c66bb] rounded-full facediv">
-              <img src="/myface.jpg" alt="" className=' w-[70%] h-[70%] relative xl:top-16 sm:top-8 
-              sm:left-8 rounded-full xl:left-16 object-fill' data-aos="fade-down"data-aos-duration="2000" />
+              <img src="/myface.jpg" alt="" className=' w-[60%] h-[60%] relative xl:top-16 sm:top-8 
+              sm:left-8 rounded-full xl:left-20 object-fill' data-aos="fade-down"data-aos-duration="2000" />
               </div>
                
              <motion.div

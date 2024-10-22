@@ -39,7 +39,7 @@ const scrollRef = useRef(null)
  
   return (
     <div
-    className='overflow-hidden w-[100%]'
+    className='overflow-hidden w-[100%] xl:mt-16 lg:mt-8 sm:mt-14 '
      data-aos="fade-up" 
     style={{ backgroundImage: `url(./wave.png)` }}>
          <div className=" text-center xl:py-5 sm:py-3 max-w-full h-full body">

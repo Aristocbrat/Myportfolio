@@ -18,7 +18,7 @@ const Scrollwathcers = () => {
   return (
     <div>
        <div 
-      className="scroll-watcher bg-[#12be9c] fixed top-0 z-50 w-full h-[8px] origin-left"
+      className="scroll-watcher bg-[#12be9c] dark:bg-black fixed top-0 z-50 w-full h-[8px] origin-left"
       style={{ transform: `scaleX(${scaleX})` }}
     />
     </div>
