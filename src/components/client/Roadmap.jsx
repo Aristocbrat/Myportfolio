@@ -36,7 +36,7 @@ const Roadmap = () => {
     <h2 className="card-title xl:text-4xl sm:text-2xl text-black ">My Project Xperience:</h2>
     <section className='flex flex-col py-5 gap-8'>
     
-    <div className="bg-black text-[#12be9ca6] dark:bg-[#12be9ca6] dark:text-black xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+    <div className="bg-black text-[#12be9ca6] dark:bg-[#12be9ca6] dark:text-black xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'>aug - sept 2024</span>
              <span className='uppercase'><a href="https://bank-ochre-omega.vercel.app/">Banking website </a></span>
@@ -64,7 +64,7 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>june - july 2024</span>
              <span className='uppercase'><a href="https://ecomm-omega-tan.vercel.app/">E-commerce website </a></span>
@@ -94,7 +94,7 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+        <div className="bg-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6]'>may - june 2024</span>
              <span className='uppercase'><a href="https://help-a-child.vercel.app/">Orphanage Website </a></span>
@@ -124,7 +124,7 @@ const Roadmap = () => {
      </p>
 
         </div>
-        <div className="bg-black dark:bg-[#12be9ca6] dark:text-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+        <div className="bg-black dark:bg-[#12be9ca6] dark:text-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'>march - april 2024</span>
              <span className='uppercase'><a href="">Capstone project </a></span>

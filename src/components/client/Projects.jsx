@@ -8,7 +8,7 @@ const Projects = () => {
                 <h1 className='font-extrabold py-4 text-black
                  text-3xl capitalize underline underline-offset-4'>projects:</h1>
          <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black xl:w-full xl:ml-0
-          sm:w-[350px] sm:ml-[-4%] a text-base-200">
+          sm:w-[350px] sm:ml-[-6%] a text-base-200">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/bank.png" alt="" 
                 className='w-[150px] h-[100px]  
@@ -38,7 +38,7 @@ const Projects = () => {
             
          </div>
          <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black xl:w-full xl:ml-0 
-         sm:w-[350px] sm:ml-[-4%] a">
+         sm:w-[350px] sm:ml-[-6%] a">
             <div className="flex flex-wrap gap-3 justify-center group">
                <img src="/shop.png" alt="" 
                 className='w-[150px] h-[100px] group-hover:scale-102 transition-transform duration-500 delay-200 object-contain aspect-square'/>
@@ -65,7 +65,7 @@ const Projects = () => {
             
          </div>
          <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black
-          xl:w-full xl:ml-0  sm:w-[350px] sm:ml-[-4%] a">
+          xl:w-full xl:ml-0  sm:w-[350px] sm:ml-[-6%] a">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/adopt1.png" alt="" 
                 className='w-[150px] h-[100px] group-hover:scale-102 transition-transform duration-500 delay-200 object-contain aspect-square'/>
@@ -92,7 +92,7 @@ const Projects = () => {
             
          </div>
          <div className="border-b-2 border-[#12be9c] py-4 px-3
-          bg-black xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-4%] a">
+          bg-black xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
             <div className="flex flex-wrap gap-3 justify-center group ">
                <img src="/cappi1.png" alt=""  
                className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-200 object-contain aspect-square'/>

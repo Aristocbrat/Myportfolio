@@ -68,10 +68,10 @@
  }
  
 
- @media (max-width:360px) {
+ @media  (max-width:360px) {
     .abouttext {
-       font-size: 10px !important;
-       height: 1220px !important;
+       font-size: 7px !important;
+       height: 700px !important;
     }
     .resume{
        margin-left: 4% !important;
@@ -81,7 +81,7 @@
       height: 200px  !important;
     }
     .facediv img{
-       top: 14%;
+       top: 18%;
     }
     .techstack{
        font-size: 20px !important;
@@ -91,13 +91,15 @@
        margin-left: 9% !important;
     }
     .a{
-      width: 320px !important;
+      width: 330px !important;
     }
  }
  @media (max-width:414px) {
     .abouttext{
       height: 906px !important;
     }
+  
+   
  }
 
 

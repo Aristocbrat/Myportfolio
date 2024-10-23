@@ -30,15 +30,9 @@ const About = () => {
 }, []);
 
 
-const scrollRef = useRef(null)
- const { scrollYProgress } = useScroll({
-    target: scrollRef,
-    offset: ["start end", "end end"] 
-  });
 
-  const para1 = useTransform(scrollYProgress, [0, 1], ["-100%", "0%"]);
-  const para2 = useTransform(scrollYProgress, [0, 1], ["100%", "0%"]);
-  const para3 = useTransform(scrollYProgress, [0, 1], ["-100%", "0%"]);
+
+ 
 
   
   return (
@@ -49,21 +43,21 @@ const scrollRef = useRef(null)
               flex justify-center font-extrabold text-[#0D7C66] uppercase py-10 '>
               <span className='about tracking-wider'></span> </h1>
             <div className="flex xl:flex-row sm:flex-col justify-center gap-10 px-4 xl:w-[90%] sm:w-[100%] overflow-hidden py-4">
-              <div className="xl:w-[28%] xl:h-[350px] sm:w-[54%] xl:mx-0 
+              <div className="xl:w-[28%] xl:h-[350px] sm:w-[57%] xl:mx-0 
               sm:mx-auto sm:h-[200px]  bg-[#0d7c66bb] rounded-full facediv">
-              <img src="/myface.jpg" alt="" className=' w-[60%] h-[60%] relative xl:top-16 sm:top-8 
-              sm:left-8 rounded-full xl:left-20 object-fill' data-aos="fade-down"data-aos-duration="2000" />
+              <img src="/myface.jpg" alt="" className=' w-[60%] h-[60%] relative xl:top-16 sm:top-10 
+              sm:left-10 rounded-full xl:left-20 object-fill' data-aos="fade-down"data-aos-duration="2000" />
               </div>
                
              <motion.div
                     
                    className="xl:w-[68%] sm:w-[100%] xl:h-[520px] abouttext
-                   sm:h-[1160px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
+                   sm:h-[800px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
             <motion.p
             data-aos="fade-down"
             data-aos-duration="2000"
             className=' text-white px-5
-             py-3 text-lg leading-10 opacity-90'> 
+             py-3 xl:text-lg sm:text-[14px] leading-10 opacity-90'> 
             My name is Babatunde Emmanuel Toyosi,
              and I'm a passionate frontend web developer with over a year of experience.
              </motion.p>
@@ -71,24 +65,24 @@ const scrollRef = useRef(null)
                data-aos="fade-down"
             data-aos-duration="3000"
                className=' text-white px-5
-             py-1 text-lg leading-10 opacity-90'>
+             py-1 xl:text-lg sm:text-[14px] leading-10 opacity-90'>
              I constantly push myself to master new tools and techniques,
               ensuring I stay up to date with the latest trends in web development.</motion.p>
              <motion.p 
                data-aos="fade-down"
             data-aos-duration="3000"
              className=' text-white px-5
-             py-1 text-lg leading-10 opacity-90'>Though I'm not a web designer, I have a keen eye for detail and aesthetics,
+             py-1 xl:text-lg sm:text-[14px] leading-10 opacity-90'>Though I'm not a web designer, I have a keen eye for detail and aesthetics,
               allowing me to implement designs with pixel-perfect precision. I thrive in team environments,
                where collaboration and problem-solving drive project success. My goal is to continue building seamless,
                 user-friendly interfaces that bring creative visions to life.
                 </motion.p>
                 <motion.p 
                data-aos="fade-up"
-            data-aos-duration="4000"
-            data-aos-delay="350"
+            data-aos-duration="3000"
+            data-aos-delay="450"
              className=' text-white px-5
-             py-1 text-lg leading-10 opacity-80'>My passion lies in solving user experience challenges through clean, efficient code and thoughtful interface design, 
+             py-1 xl:text-lg sm:text-[14px] leading-10 opacity-80'>My passion lies in solving user experience challenges through clean, efficient code and thoughtful interface design, 
              ensuring every feature enhances rather than complicates the user journey.
                 </motion.p>
                 </motion.div>  
