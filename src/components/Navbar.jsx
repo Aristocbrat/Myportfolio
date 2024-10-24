@@ -22,7 +22,7 @@ const Navbar = () => {
       <Scrollwathcers/>
       <div
       style={{ backgroundImage: `url(./wave.png)` }}
-       className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] dark:text-white">
+       className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] dark:text-white" id="top">
         <div className="navbar-start">
           <h1 className="xl:text-4xl sm:text-xl  font-bold font-aboutfont">Emmanuel's Portfolio</h1>
         
@@ -31,7 +31,7 @@ const Navbar = () => {
         
         
 
-        {/* Right Side: Profile Image and Connect Button */}
+        
         <div className="navbar-end flex gap-5">
           
         <div className="dropdown xl:hidden sm:block">

@@ -71,7 +71,7 @@ const scrollRef = useRef(null)
               <AnimiLoader/>
             </div>
             <div
-               className="xl:text-xl text-white dark:text-[#0D7C66] xl:w-[200px] 
+               className="xl:text-xl text-white dark:text-[#12be9c] xl:w-[200px] 
                xl:h-[200px] mt-4 xl:block sm:hidden font-extrabold uppercase" ref={scrollRef} >
                 <motion.div
                   style={{translateX:para1}}
@@ -80,23 +80,23 @@ const scrollRef = useRef(null)
                 <ul className="">
                   <li className='py-3 group' data-aos="slide-right" data-aos-duration="2000">
                     <a href="#about" className='flex gap-4 group-hover:translate-x-5 duration-500'>
-                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#0D7C66] duration-500'/>
+                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#12be9c] duration-500'/>
                     <span className='group-hover:text-[#0D7C66]'>About Me</span>
                     </a>
                     </li>
                   <li className='py-3 group' data-aos="slide-left" data-aos-duration="2300">
                     <a href="#skill" className='flex gap-4 group-hover:translate-x-5 duration-500'>
-                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#0D7C66] duration-500'/>
+                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#12be9c] duration-500'/>
                       <span className='group-hover:text-[#0D7C66]'>Skills</span></a>
                     </li>
                   <li className='py-3 group' data-aos="slide-right" data-aos-duration="2500">
                     <a href="#project" className='flex gap-4 group-hover:translate-x-5 duration-500' >
-                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#0D7C66] duration-500'/>
+                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#12be9c] duration-500'/>
                       <span className='group-hover:text-[#0D7C66]'>Projects</span></a>
                     </li>
                   <li className='py-3 group'data-aos="slide-left" data-aos-duration="3000">
                     <a href="#cont" className='flex gap-4 group-hover:translate-x-5 duration-500'>
-                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#0D7C66] duration-500'/>
+                      <GoDash className='group-hover:translate-x-5 group-hover:text-[#12be9c] duration-500'/>
                       <span className='group-hover:text-[#0D7C66]'>Contact</span></a>
                     </li>
                 </ul>

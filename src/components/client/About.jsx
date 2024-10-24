@@ -45,13 +45,13 @@ const About = () => {
             <div className="flex xl:flex-row sm:flex-col justify-center gap-10 px-4 xl:w-[90%] sm:w-[100%] overflow-hidden py-4">
               <div className="xl:w-[28%] xl:h-[350px] sm:w-[57%] xl:mx-0 
               sm:mx-auto sm:h-[200px]  bg-[#0d7c66bb] rounded-full facediv">
-              <img src="/myface.jpg" alt="" className=' w-[60%] h-[60%] relative xl:top-16 sm:top-10 
-              sm:left-10 rounded-full xl:left-20 object-fill' data-aos="fade-down"data-aos-duration="2000" />
+              <img src="/myface.jpg" alt="" className=' w-[63%] h-[63%] relative xl:top-16 sm:top-10 
+              sm:left-10 rounded-full xl:left-[70px] object-fill' data-aos="fade-down"data-aos-duration="2000" />
               </div>
                
              <motion.div
                     
-                   className="xl:w-[68%] sm:w-[100%] xl:h-[520px] abouttext
+                   className="xl:w-[64%] sm:w-[100%] xl:h-[380px] abouttext
                    sm:h-[800px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
             <motion.p
             data-aos="fade-down"
