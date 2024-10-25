@@ -51,7 +51,7 @@ const About = () => {
                
              <motion.div
                     
-                   className="xl:w-[64%] sm:w-[100%] xl:h-[380px] abouttext
+                   className="xl:w-[64%] sm:w-[100%] xl:h-[400px] abouttext
                    sm:h-[800px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
             <motion.p
             data-aos="fade-down"

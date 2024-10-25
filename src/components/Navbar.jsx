@@ -24,7 +24,7 @@ const Navbar = () => {
       style={{ backgroundImage: `url(./wave.png)` }}
        className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] dark:text-white" >
         <div className="navbar-start">
-          <h1 id='bttop' className="xl:text-4xl sm:text-xl  font-bold font-aboutfont">Emmanuel's Portfolio</h1>
+          <h1 className="xl:text-4xl sm:text-xl  font-bold font-aboutfont">Emmanuel's Portfolio</h1>
         
         </div>
 
