@@ -157,7 +157,7 @@ const Roadmap = () => {
     </section>
        
     <div className="bg-black w-[50px] h-[50px] rounded-full" data-aos="fade-up" data-aos-duration="3000" >
-    <a href="#top" className='relative top-3 left-[11px]'><FaArrowAltCircleUp 
+    <a href="#bttop" className='relative top-3 left-[11px]'><FaArrowAltCircleUp 
     className="text-3xl animate-bounce animate-duration-1000 text-[#12be9ca6]"/></a>
     </div>
   </div>
