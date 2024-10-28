@@ -45,8 +45,8 @@ const About = () => {
             <div className="flex xl:flex-row sm:flex-col justify-center gap-10 px-4 xl:w-[90%] sm:w-[100%] overflow-hidden py-4">
               <div className="xl:w-[28%] xl:h-[350px] sm:w-[57%] xl:mx-0 
               sm:mx-auto sm:h-[200px]  bg-[#0d7c66bb] rounded-full facediv">
-              <img src="/myface.jpg" alt="" className=' w-[66%] h-[66%] relative xl:top-16 sm:top-10 
-              sm:left-10 rounded-full xl:left-[58px] object-fill' data-aos="fade-down"data-aos-duration="2000" />
+              <img src="/myface.jpg" alt="" className=' w-[66%] h-[66%] relative xl:top-16 sm:top-[34px] 
+              sm:left-[34px] rounded-full xl:left-[58px] object-fill' data-aos="fade-down"data-aos-duration="2000" />
               </div>
                
              <motion.div

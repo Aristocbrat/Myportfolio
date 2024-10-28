@@ -82,6 +82,7 @@
     }
     .facediv img{
        top: 18%;
+       left:18% !important;
     }
     .techstack{
        font-size: 20px !important;
@@ -97,9 +98,9 @@
  @media (max-width:414px) {
     .abouttext{
       height: 906px !important;
-    }
-  
-   
+    } 
  }
+
+
 
 

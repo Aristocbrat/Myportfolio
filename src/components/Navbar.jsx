@@ -24,7 +24,7 @@ const Navbar = () => {
       style={{ backgroundImage: `url(./wave.png)` }}
        className="navbar w-full py-6 px-6 font-mainfont text-[#0D7C66] dark:text-white" >
         <div className="navbar-start">
-          <h1 className="xl:text-4xl sm:text-xl  font-bold font-aboutfont">Emmanuel's Portfolio</h1>
+          <h1 className="xl:text-4xl sm:text-xl myname  font-bold font-aboutfont">Emmanuel's Portfolio</h1>
         
         </div>
 
@@ -66,7 +66,8 @@ const Navbar = () => {
             whileHover={{scale:1.2}}
             className='font-bold '><a href="#cont">Let's Connect</a></motion.span>
           </button>
-          <p><input type="checkbox" className="toggle" checked={darkMode} onChange={()=>setDarkMode(!darkMode)} /></p>
+          <p className='xl:block sm:hidden'>
+            <input type="checkbox" className="toggle" checked={darkMode} onChange={()=>setDarkMode(!darkMode)} /></p>
           
         </div>
       </div>
