@@ -89,12 +89,22 @@ const About = () => {
             </div>
             <div className="flex xl:flex-row sm:flex-col mx-auto w-[80%]">
               <div className=" flex gap-4 py-4 xl:ml-0 sm:ml-8 resume">
-                <motion.button
-                whileHover={{scale:1.1, backgroundColor:"#0D7C66" , fontWeight:500}}
-                transition={{bounceDamping:10, bounceStiffness:600 , delay:0.3}} 
-                className='btn bg-[#0D7C66] text-white'
-                 onClick="window.open('./)">
-                <FaDownload className='bg-[#0D7C66]' />Resume</motion.button>
+              <motion.button
+    whileHover={{ scale: 1.1, backgroundColor: "#0D7C66", fontWeight: 500 }}
+    transition={{ bounceDamping: 10, bounceStiffness: 600, delay: 0.3 }}
+    className="btn bg-[#0D7C66] text-white"
+    onClick={() => {
+        const link = document.createElement('a');
+        link.href = '/Myresume.pdf'; 
+        link.download = 'Myresume.pdf'; 
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }}
+>
+    <FaDownload className="bg-[#0D7C66]" />Resume
+</motion.button>
+
 
                 <motion.button 
                 whileHover={{scale:1.1, backgroundColor:"#0D7C66" , fontWeight:500}}
