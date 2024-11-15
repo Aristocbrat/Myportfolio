@@ -4,6 +4,7 @@ import { FaRegCopyright} from "react-icons/fa6";
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import Contactme from './Contactme';
 import Projects from './Projects';
+import Loader from './Loader';
 const Roadmap = () => {
   useEffect(()=>{
     const Time = () =>{
@@ -14,6 +15,7 @@ const Roadmap = () => {
   },[])
   return (
     <div>
+      <Loader/>
       <section className='flex xl:flex-row sm:flex-col-reverse justify-center
        xl:w-[95%] sm:w-[100%] gap-10 h-full xl:py-12 sm:py-5 xl:px-5 '>
       <div className="card lg:card-side bg-[#12be9c] shadow-xl xl:w-[40%] sm:w-[100%] h-full">

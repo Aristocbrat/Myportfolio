@@ -6,7 +6,7 @@ import Skills  from './Skills'
 import Roadmap from './Roadmap'
 const Home = () => {
   return (
-    <div className='bg-black dark:bg-white'>
+    <div className='bg-black dark:bg-white  '>
       <Navbar/>
       <Body/>
       <About/>

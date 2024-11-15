@@ -5,6 +5,7 @@ import { RiTailwindCssFill , RiCss3Fill , RiNextjsFill } from "react-icons/ri";
 import { ImHtmlFive } from "react-icons/im";
 import { FaBootstrap , FaReact } from "react-icons/fa6";
 import { SiFramer  } from "react-icons/si";
+import Loader from './Loader';
 
 
 
@@ -54,6 +55,7 @@ const [startAnimi, setStartAnimi] = useState("-60%");
   
   return (
     <div className='xl:py-8 sm:py-3' id='skill'>
+      <Loader/>
       <motion.section className='flex justify-center  gap-10 overflow-hidden'
       style={{ backgroundImage: `url(./wave.png)` }}>
           <motion.svg

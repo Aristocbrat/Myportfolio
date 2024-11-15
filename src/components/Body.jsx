@@ -5,6 +5,7 @@ import { FaChevronLeft } from "react-icons/fa";
 import { GiLindenLeaf } from "react-icons/gi";
 import { GoDash } from "react-icons/go";
 import AnimiLoader from './client/AnimiLoader';
+import Loader from './client/Loader';
 
 const Body = () => {
   useEffect(()=>{
@@ -50,7 +51,7 @@ const scrollRef = useRef(null)
                    data-aos="fade-down"
                    data-aos-duration="2000" >A Frontend Software Engineer</p>
             </div>
-            
+            <Loader/>
             <div className="flex xl:flex-row  xl:p-4 justify-between xl:w-[98%]  sm:w-[100%]  xl:mt-0 sm:mt-5  mx-auto ">
               
             <motion.div 
