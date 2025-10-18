@@ -117,6 +117,34 @@ const Projects = () => {
             </div>
             
          </div>
+         <div className="border-b-2 border-[#12be9c] py-4 px-3 bg-black xl:w-full xl:ml-0 
+         sm:w-[350px] sm:ml-[-6%] a">
+            <div className="flex flex-wrap gap-3 justify-center group">
+               <img src="/kwasu1.png" alt="kwasuloginpage" 
+                className='w-[150px] h-[100px] group-hover:scale-102 transition-transform duration-500 delay-200 object-contain aspect-square'/>
+               <img src="/Kwasu2.png" alt="kwasudemo home page"
+                className='w-[150px] h-[100px] group-hover:scale-110 transition-transform duration-500 delay-300 object-contain aspect-square' />
+               <img src="/Kwasu3.png" alt="Kwasu courses page" 
+               className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-500 object-contain aspect-square'/>
+               <img src="/Kwasu4.png" alt="kwasu result page"
+                 className='w-[150px] h-[100px] group-hover:scale-127 transition-transform duration-500 delay-700 object-contain aspect-square'/>
+            </div>
+            <div className="">
+            <motion.h1
+             whileHover={{translateX:15 }}
+             transition={{duration:0.5, ease:easeInOut}}
+             className='flex gap-1 font-extrabold  text-[#12be9c] ' >
+             <span className='uppercase'><a href="https://ecomm-omega-tan.vercel.app/">Kwara state University student portal demo  </a></span>
+             <LuChevronsRight className='text-2xl' /></motion.h1>
+             <p className='font-semibold py-3 text-[#12be9c] capitalize'>
+                The new student portal, a significant upgrade that completely redefines the digital experience for our students. 
+                Designed with a nice flow and a very nice design,offering a big improvement over the previous system. you'll be greeted by an intuitive interface that makes accessing grades.
+               This commitment to superior user experience gives the entire portal a truly nice feel,
+                transforming administrative tasks into an effortless part of your academic life.
+             </p>
+            </div>
+            
+         </div>
          
 
      </div>

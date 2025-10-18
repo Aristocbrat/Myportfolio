@@ -59,7 +59,7 @@ const About = () => {
             className=' text-white px-5
              py-3 xl:text-lg sm:text-[14px] leading-10 opacity-90'> 
             My name is Babatunde Emmanuel Toyosi,
-             and I'm a passionate frontend web developer with over a year of experience.
+             and I'm a passionate frontend web developer with over 2 years of experience.
              </motion.p>
                <motion.p 
                data-aos="fade-down"

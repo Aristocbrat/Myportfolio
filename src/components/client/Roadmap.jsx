@@ -26,6 +26,8 @@ const Roadmap = () => {
     <h2 className="card-title xl:text-4xl lg:text-4xl sm:text-2xl">My Road-Map</h2>
      <p className='font-bold'>-Front-end Development Course at PluralCode Academy</p>
      <p className='font-bold'>-Internship at HNG</p>
+     <p className='font-bold'>-Internship at FundedAi</p>
+     <p className='font-bold'>-Front-end Dev at Pedxo</p>
      <p className='font-bold'>-Building user-friendly & responsive web applications</p>
       <Projects/>
      <Contactme/>
@@ -151,6 +153,33 @@ const Roadmap = () => {
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="550">CSS</span>
       <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
       data-aos="fade-down" data-aos-duration="2000" data-aos-delay="650">AOS</span>
+     </p>
+
+        </div>
+        <div className="bg-black dark:bg-[#12be9ca6] dark:text-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
+          <h1 className='flex gap-1 font-extrabold py-3' >
+            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'> October 2025</span>
+             <span className='uppercase'><a href="">Kwasu Student portal Demo  </a></span>
+             <LuChevronsRight className='text-2xl' /></h1>
+             <p className='p-3 font-bold'>
+             I designed and developed a visually appealing and highly functional a demo new student portal,
+              a significant upgrade that completely redefines the digital experience for our students. 
+              Designed with a nice flow and a very nice design,offering a big improvement over the previous system.
+              you'll be greeted by an intuitive interface that makes accessing grades.
+     </p>
+     <p className='py-5 flex flex-wrap justify-center px-2 gap-4'>
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
+      data-aos="fade-down" data-aos-duration="2000" data-aos-delay="250">Tailwind</span>
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
+      data-aos="fade-down" data-aos-duration="2000" data-aos-delay="350">React.js</span>
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
+      data-aos="fade-down" data-aos-duration="2000" data-aos-delay="450">React icons</span>
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
+      data-aos="fade-down" data-aos-duration="2000" data-aos-delay="550">CSS</span>
+      <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
+      data-aos="fade-down" data-aos-duration="2000" data-aos-delay="650">Daisy Ui</span>
+       <span className='p-3 rounded-xl bg-[#12be9ca6] dark:bg-black dark:text-[#12be9ca6] text-black font-bold'
+      data-aos="fade-down" data-aos-duration="2000" data-aos-delay="650">Uiverse</span>
      </p>
 
         </div>
