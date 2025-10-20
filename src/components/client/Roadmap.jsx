@@ -132,7 +132,7 @@ const Roadmap = () => {
         <div className="bg-black dark:bg-[#12be9ca6] dark:text-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
             <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'>march - april 2024</span>
-             <span className='uppercase'><a href="">Capstone project </a></span>
+             <span className='uppercase'><a href="https://ggg-aristocbrat-1243.vercel.app/">Capstone project </a></span>
              <LuChevronsRight className='text-2xl' /></h1>
              <p className='p-3 font-bold'>
              I designed and developed a visually appealing and highly functional landing page for a ChatGPT website,
@@ -158,8 +158,8 @@ const Roadmap = () => {
         </div>
         <div className="bg-black dark:bg-[#12be9ca6] dark:text-black text-[#12be9ca6] xl:w-full xl:ml-0 sm:w-[350px] sm:ml-[-6%] a">
           <h1 className='flex gap-1 font-extrabold py-3' >
-            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'> October 2025</span>
-             <span className='uppercase'><a href="">Kwasu Student portal Demo  </a></span>
+            <span className='date uppercase px-2 border-r-2 border-[#12be9ca6] dark:border-b-2 dark:border-black'> October 2025 </span>
+             <span className='uppercase'><a href="https://kwasu-student-portal-7jx4.vercel.app/">Kwasu Student portal Demo  </a></span>
              <LuChevronsRight className='text-2xl' /></h1>
              <p className='p-3 font-bold'>
              I designed and developed a visually appealing and highly functional a demo new student portal,

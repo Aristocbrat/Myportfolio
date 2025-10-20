@@ -39,7 +39,7 @@ const About = () => {
     <div >
           <div className=" mt-4 w-full h-full xl:py-16 sm:py-3" id='about' >
 
-             <h1 className='xl:text-4xl sm:text-[16px] 
+             <h1 className='xl:text-4xl sm:text-[10px] 
               flex justify-center font-extrabold text-[#0D7C66] uppercase py-10 '>
               <span className='about tracking-wider'></span> </h1>
             <div className="flex xl:flex-row sm:flex-col justify-center gap-10 px-4 xl:w-[90%] sm:w-[100%] overflow-hidden py-4">
@@ -52,7 +52,8 @@ const About = () => {
              <motion.div
                     
                    className="xl:w-[64%] sm:w-[100%] xl:h-[400px] abouttext
-                   sm:h-[800px] bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl font-bold font-nicefont  ">
+                       sm:h-auto bg-[#0D7C66] rounded-tl-3xl rounded-br-3xl 
+                       font-bold font-nicefont">
             <motion.p
             data-aos="fade-down"
             data-aos-duration="2000"

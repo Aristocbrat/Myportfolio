@@ -122,11 +122,11 @@ const Projects = () => {
             <div className="flex flex-wrap gap-3 justify-center group">
                <img src="/kwasu1.png" alt="kwasuloginpage" 
                 className='w-[150px] h-[100px] group-hover:scale-102 transition-transform duration-500 delay-200 object-contain aspect-square'/>
-               <img src="/Kwasu2.png" alt="kwasudemo home page"
+               <img src="/kwasu2.png" alt="kwasudemohomepage"
                 className='w-[150px] h-[100px] group-hover:scale-110 transition-transform duration-500 delay-300 object-contain aspect-square' />
-               <img src="/Kwasu3.png" alt="Kwasu courses page" 
+               <img src="/kwasu3.png" alt="Kwasucoursespage" 
                className='w-[150px] h-[100px] group-hover:scale-125 transition-transform duration-500 delay-500 object-contain aspect-square'/>
-               <img src="/Kwasu4.png" alt="kwasu result page"
+               <img src="/kwasu4.png" alt="kwasuresultpage"
                  className='w-[150px] h-[100px] group-hover:scale-127 transition-transform duration-500 delay-700 object-contain aspect-square'/>
             </div>
             <div className="">
@@ -134,7 +134,7 @@ const Projects = () => {
              whileHover={{translateX:15 }}
              transition={{duration:0.5, ease:easeInOut}}
              className='flex gap-1 font-extrabold  text-[#12be9c] ' >
-             <span className='uppercase'><a href="https://ecomm-omega-tan.vercel.app/">Kwara state University student portal demo  </a></span>
+             <span className='uppercase'><a href="https://kwasu-student-portal-7jx4.vercel.app/">Kwara state University student portal demo  </a></span>
              <LuChevronsRight className='text-2xl' /></motion.h1>
              <p className='font-semibold py-3 text-[#12be9c] capitalize'>
                 The new student portal, a significant upgrade that completely redefines the digital experience for our students. 

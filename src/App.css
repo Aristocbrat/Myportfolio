@@ -177,7 +177,8 @@
  @media  (max-width:360px) {
     .abouttext {
        font-size: 7px !important;
-       height: 700px !important;
+       height:auto !important;
+      
     }
     .resume{
        margin-left: 4% !important;
@@ -203,7 +204,7 @@
  }
  @media (max-width:414px) {
     .abouttext{
-      height: 906px !important;
+      height: auto !important;
     } 
  }
 
